@@ -1,6 +1,6 @@
 <template lang="pug">
   .auth
-    router-link(to="he" class="signup") {{signUp}}
+    router-link.signup(to="he") {{signUp}}
     router-link.signin(to="ne") {{signIn}}
 </template>
 
@@ -43,13 +43,23 @@
       height: 40px
       width: 220px
       text-decoration: none
+      text-transform: uppercase
 
     .signin
       background: white
       color: #58C800
 
+      &:hover
+        color: #316200
+        border: 1px solid #316200
+
 
     .signup
       color: #FFFFFF
       background: #58C800
+
+      &:hover
+        background: #316200
+
+
 </style>
