@@ -21,23 +21,26 @@
     display: flex
     flex-direction: row
     align-items: center
-    width: 100px
+    width: 200px
     height: 100%
-    padding: 20px 0 20px 0
+    padding: 10px 0 10px 0
+    box-sizing: border-box
 
     img
-      height: 100%
-      width: 40px
-      display: block
-      margin: auto
+      object-fit: cover
+      height: 60px
+      width: 60px
 
     .text
-      font-size: 15px
-      font-family: Roboto Slab
+      margin-left: 20px
+      font-family: 'Playfair Display', serif
       font-style: normal
-      font-weight: normal
-      line-height: 20px
+      font-weight: 300
+      font-size: 25px
+      line-height: 24px
       display: flex
       align-items: center
       text-align: center
+
+      color: #58C800
 </style>
